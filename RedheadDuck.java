@@ -10,4 +10,8 @@ public class RedheadDuck extends Duck {
   public void display() {
     System.out.println("I'm Redhead duck!");
   }
+
+  public void hurtWings() {
+    flyBehavior = new FlyNoWay();
+  }
 }
