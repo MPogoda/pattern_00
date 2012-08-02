@@ -1,1 +1,7 @@
-example for pattern `Strategy'
+Example git repository for pattern `Strategy'
+
+There are 3 branche:
+
+  * master :: our initial architecture
+  * mb_interfaces :: try use interfaces
+  * strategy_pattern :: final decision
