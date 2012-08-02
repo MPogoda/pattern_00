@@ -1,6 +1,8 @@
 package ua.patterns;
 
 public abstract class Duck {
+  FlyBehavior flyBehavior;
+  QuackBehavior quackBehavior;
 
   public abstract void display();
 
@@ -8,7 +10,11 @@ public abstract class Duck {
     System.out.println("I'm swimming!");
   }
 
-  public void quack() {
-    System.out.println("QUACK!");
+  final public void fly() {
+    flyBehavior.fly();
+  }
+
+  final public void quack() {
+    quackBehavior.quack();
   }
 }
